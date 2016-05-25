@@ -1,7 +1,8 @@
 package feliss.xo;
 
-import feliss.xo.exceptions.AlreadyOccupiedException;
-import feliss.xo.exceptions.InvalidPointException;
+import feliss.xo.model.Field;
+import feliss.xo.model.Figure;
+import feliss.xo.model.exceptions.InvalidPointException;
 import org.junit.Test;
 
 import java.awt.*;
@@ -29,19 +30,6 @@ public class FieldTest {
         assertEquals(inputFigure, actualFigure);
     }
 
-    @Test
-    public void testSetFigureWhenAlreadyOccupied() throws Exception {
-        final Field field = new Field();
-        final Point inputPoint = new Point(0, 0);
-        final Figure inputFigure = Figure.O;
-
-        field.setFigure(inputPoint, inputFigure);
-        try {
-            field.setFigure(inputPoint, inputFigure);
-            fail();
-        } catch (final AlreadyOccupiedException e) {
-        }
-    }
 
     @Test
     public void testGetFigureWhenFigureIsNotSet() throws Exception {

@@ -1,5 +1,7 @@
 package feliss.xo;
 
+import feliss.xo.model.Figure;
+import feliss.xo.model.Player;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
