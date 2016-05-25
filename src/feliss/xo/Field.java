@@ -1,7 +1,7 @@
-package com.xo;
+package feliss.xo;
 
-import com.xo.exceptions.AlreadyOccupiedException;
-import com.xo.exceptions.InvalidPointException;
+import feliss.xo.exceptions.AlreadyOccupiedException;
+import feliss.xo.exceptions.InvalidPointException;
 
 import java.awt.*;
 

@@ -1,4 +1,4 @@
-package com.xo;
+package feliss.xo;
 
 public class Player {
 
