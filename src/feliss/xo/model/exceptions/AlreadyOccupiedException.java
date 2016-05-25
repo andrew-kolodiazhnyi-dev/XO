@@ -1,4 +1,4 @@
-package feliss.xo.exceptions;
+package feliss.xo.model.exceptions;
 
 public class AlreadyOccupiedException extends AbstractXOException {
 }
