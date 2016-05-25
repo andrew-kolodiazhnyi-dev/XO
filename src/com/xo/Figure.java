@@ -1,4 +1,4 @@
-package io.xo;
+package com.xo;
 
 public enum Figure {
     X,O
