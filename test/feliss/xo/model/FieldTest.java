@@ -1,7 +1,5 @@
-package feliss.xo;
+package feliss.xo.model;
 
-import feliss.xo.model.Field;
-import feliss.xo.model.Figure;
 import feliss.xo.model.exceptions.InvalidPointException;
 import org.junit.Test;
 

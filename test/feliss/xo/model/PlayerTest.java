@@ -1,4 +1,4 @@
-package feliss.xo;
+package feliss.xo.model;
 
 import feliss.xo.model.Figure;
 import feliss.xo.model.Player;
